@@ -1,0 +1,519 @@
+Sentence : Cloud computing is a model for enabling ubiquitous, convenient, on-demand access to a shared pool of configurable computing resources.
+Structure : (SQ+FRAG
+  (ADJP
+    (JJ cloud)
+    (S+VP
+      (VBG computing)
+      (VBZ is)
+      (NP
+        (NP
+          (NP
+            (NP (DT a) (NN model))
+            (PP
+              (IN for)
+              (NP
+                (VBG enabling)
+                (NX
+                  (NX (NNS ubiquitous))
+                  (, ,)
+                  (NX (NNS convenient))
+                  (, ,)
+                  (NN on-demand)
+                  (NN access)))))
+          (PP (TO to) (NP (DT a) (JJ shared) (NN pool))))
+        (PP
+          (IN of)
+          (NP (JJ configurable) (VBG computing) (NNS resources))))))
+  (. .))
+
+Sentence : Cloud computing and storage solutions provide users and enterprises with various capabilities to store and process their data in third-party data centers.
+Structure : (SQ+FRAG
+  (ADJP
+    (JJ cloud)
+    (S+VP
+      (VBG computing)
+      (CC and)
+      (VP
+        (VB storage)
+        (VB solutions)
+        (VB provide)
+        (VB users)
+        (CC and)
+        (VB enterprises)
+        (PP
+          (IN with)
+          (NP
+            (ADJP
+              (JJ various)
+              (JJ capabilities)
+              (S+VP
+                (TO to)
+                (VP
+                  (VB store)
+                  (NP
+                    (CC and)
+                    (NN process)
+                    (PRP$ their)
+                    (NNS data)
+                    (PP (IN in) (NP (JJ third-party) (NNS data)))))))
+            (NNS centers))))))
+  (. .))
+
+Sentence : It relies on sharing of resources to achieve coherence and economies of scale, similar to a utility (like the electricity grid) over a network.
+Structure : (SBAR+S
+  (NP (PRP it))
+  (VP
+    (VB relies)
+    (SBAR
+      (IN on)
+      (S
+        (VP
+          (VBG sharing)
+          (PP
+            (IN of)
+            (NP
+              (NP
+                (NNS resources)
+                (S+VP
+                  (TO to)
+                  (VP
+                    (VB achieve)
+                    (UCP
+                      (NN coherence)
+                      (CC and)
+                      (ADJP
+                        (JJ economies)
+                        (PP (IN of) (NP (NN scale))))
+                      (, ,)
+                      (JJ similar)
+                      (PP (TO to) (NP (DT a) (NN utility)))
+                      (PRN
+                        (-LRB- ()
+                        (PP
+                          (IN like)
+                          (NP (DT the) (NN electricity) (NN grid)))
+                        (-RRB- )))))))
+              (PP (IN over) (NP (DT a) (NN network))))))
+        (. .)))))
+
+Sentence : At the foundation of cloud computing is the broader concept of converged infrastructure and shared services.
+Structure : (NP+PP
+  (PP (IN at) (NP (DT the) (NN foundation)))
+  (PP
+    (IN of)
+    (NP
+      (NP
+        (NN cloud)
+        (S+VP
+          (VBG computing)
+          (VBZ is)
+          (NP (DT the) (JJR broader) (NN concept))))
+      (SBAR
+        (IN of)
+        (S
+          (VP
+            (VBN converged)
+            (VB infrastructure)
+            (NP (CC and) (JJ shared) (NNS services)))
+          (. .))))))
+
+Sentence : Cloud computing, or in simpler shorthand just "the cloud", also focuses on maximizing the effectiveness of the shared resources.
+Structure : (UCP
+  (NN cloud)
+  (NN computing)
+  (, ,)
+  (CC or)
+  (SBAR
+    (IN in)
+    (S
+      (NP (JJ simpler) (NN shorthand))
+      (ADVP (RB just))
+      (`` ``)
+      (NP (DT the) (NN cloud))
+      ('' '')
+      (, ,)
+      (ADVP (RB also))
+      (VP
+        (VB focuses)
+        (PP
+          (IN on)
+          (S+VP
+            (VBG maximizing)
+            (NP
+              (NP (DT the) (NN effectiveness))
+              (PP (IN of) (NP (DT the) (JJ shared) (NNS resources)))))))
+      (. .))))
+
+Sentence : Cloud resources are usually not only shared by multiple users but are also dynamically reallocated per demand.
+Structure : (NP+SBAR+S
+  (S
+    (NP (JJ cloud) (NNS resources))
+    (VP
+      (VBP are)
+      (ADVP (RB usually))
+      (ADVP (RB not) (RB only))
+      (VBN shared)
+      (PP (IN by) (NP (JJ multiple) (NN users)))))
+  (S
+    (CC but)
+    (VP
+      (VBP are)
+      (ADVP (RB also))
+      (ADVP (RB dynamically))
+      (VBN reallocated)
+      (PP (IN per) (NP (NN demand))))
+    (. .)))
+
+Sentence : This can work for allocating resources to users.
+Structure : (S
+  (NP (DT this))
+  (VP
+    (MD can)
+    (VB work)
+    (PP
+      (IN for)
+      (NP
+        (NP (VBG allocating) (NNS resources))
+        (PP (TO to) (NP (NNS users))))))
+  (. .))
+
+Sentence : For example, a cloud computer facility that serves European users during European business hours with a specific application may reallocate the same resources to serve North American users during North America's business hours with a different application.
+Structure : (PRN+SBAR
+  (IN for)
+  (S
+    (NP (NN example))
+    (, ,)
+    (NP (DT a) (NN cloud))
+    (NP
+      (NP
+        (NP (NN computer) (NN facility))
+        (PP (IN that) (NP (JJ serves) (JJ European) (NN users))))
+      (PP
+        (IN during)
+        (NP
+          (JJ European)
+          (NN business)
+          (NNS hours)
+          (PP (IN with) (NP (DT a) (JJ specific) (NN application))))))
+    (VP
+      (MD may)
+      (VB reallocate)
+      (NP
+        (NP (DT the) (JJ same) (NNS resources))
+        (SBAR+S+VP
+          (TO to)
+          (VP
+            (VB serve)
+            (NP
+              (NP (NNP North) (JJ American) (NN users))
+              (PP
+                (IN during)
+                (NP
+                  (NP
+                    (NP (NNP North) (NNP America) (POS 's))
+                    (NN business)
+                    (NNS hours))
+                  (PP
+                    (IN with)
+                    (NP (DT a) (JJ different) (NN application))))))))))
+    (. .)))
+
+Sentence : This approach helps maximize the use of computing power while reducing the overall cost of resources by using less power, air conditioning, rack space, etc.
+Structure : (NP+S
+  (NP (DT this) (NN approach))
+  (VP
+    (VB helps)
+    (VB maximize)
+    (NP
+      (NP (DT the) (NN use))
+      (PP
+        (IN of)
+        (NP
+          (NP
+            (NP (VBG computing) (NN power))
+            (PP
+              (IN while)
+              (S+VP
+                (VBG reducing)
+                (NP (DT the) (JJ overall) (NN cost)))))
+          (PP
+            (IN of)
+            (NP
+              (NNS resources)
+              (SBAR
+                (IN by)
+                (S
+                  (S+VP (VBG using) (NP (JJR less) (NN power)))
+                  (, ,)
+                  (NP (NN air) (NN conditioning))
+                  (, ,)
+                  (NP (JJ rack) (NN space))
+                  (, ,)
+                  (VP (VBZ etc))
+                  (. .))))))))))
+
+Sentence : to maintain the system.
+Structure : (S (VP (TO to) (VB maintain) (NP (DT the) (NN system))) (. .))
+
+Sentence : With cloud computing, multiple users can access a single server to retrieve and update their data without purchasing licenses for different applications.
+Structure : (PRN+SBAR
+  (IN with)
+  (S
+    (NP (JJ cloud) (NN computing))
+    (, ,)
+    (NP (JJ multiple) (NN users))
+    (VP
+      (MD can)
+      (NP (NP (NN access)) (DT a) (JJ single) (NN server))
+      (S+VP
+        (TO to)
+        (VP
+          (VB retrieve)
+          (CC and)
+          (VB update)
+          (NP
+            (NP
+              (NP (PRP$ their) (NNS data))
+              (PP (IN without) (NP (VBG purchasing) (NN licenses))))
+            (PP (IN for) (NP (JJ different) (NNS applications)))))))
+    (. .)))
+
+Sentence : The term "moving to cloud" also refers to an organization moving away from a traditional CAPEX model (buy the dedicated hardware and depreciate it over a period of time) to the OPEX model (use a shared cloud infrastructure and pay as one uses it).
+Structure : (S
+  (NP (DT the) (NN term))
+  (`` ``)
+  (S+VP (VBG moving) (TO to) (VP (VB cloud)))
+  ('' '')
+  (ADVP (RB also))
+  (NP (NP (NNS refers)) (PP (TO to) (NP (DT an) (NN organization))))
+  (VP
+    (VBG moving)
+    (PRT (RP away))
+    (PP
+      (IN from)
+      (NP
+        (NP
+          (DT a)
+          (JJ traditional)
+          (JJ CAPEX)
+          (NN model)
+          (PRN
+            (-LRB- ()
+            (VP
+              (VB buy)
+              (S
+                (NP (DT the) (JJ dedicated) (NN hardware))
+                (NP (CC and) (NNS depreciate))
+                (NP (PRP it))
+                (VP
+                  (PP (IN over) (NP (DT a) (NN period)))
+                  (PP (IN of) (NP (NN time))))))
+            (-RRB- ))))
+        (PP
+          (TO to)
+          (NP
+            (NP (DT the) (JJ OPEX) (NN model))
+            (PRN
+              (-LRB- ()
+              (VP
+                (VB use)
+                (NP (DT a) (JJ shared) (NN cloud))
+                (VB infrastructure)
+                (CC and)
+                (VB pay)
+                (PP (IN as) (NP (CD one)))
+                (VBZ uses)
+                (NP (PRP it)))
+              (-RRB- ))))))))
+  (. .))
+
+Sentence : Proponents claim that cloud computing allows companies to avoid upfront infrastructure costs, and focus on projects that differentiate their businesses instead of on infrastructure.
+Structure : (S+SBAR
+  (S
+    (NP (NNS proponents))
+    (VP
+      (VBP claim)
+      (SBAR
+        (WHNP (WDT that))
+        (S+VP
+          (VP
+            (VB cloud)
+            (VBG computing)
+            (NP (JJ allows) (NNS companies)))
+          (TO to)
+          (VP
+            (VB avoid)
+            (VB upfront)
+            (NP (JJ infrastructure) (NNS costs)))))))
+  (, ,)
+  (S
+    (CC and)
+    (VP
+      (VB focus)
+      (PP
+        (IN on)
+        (NP
+          (NP (NNS projects))
+          (PP
+            (IN that)
+            (NP
+              (NP (JJ differentiate) (PRP$ their) (NNS businesses))
+              (PP
+                (ADVP (RB instead))
+                (IN of)
+                (IN on)
+                (NP (NN infrastructure))))))))
+    (. .)))
+
+Sentence : Proponents also claim that cloud computing allows enterprises to get their applications up and running faster, with improved manageability and less maintenance, and enables IT to more rapidly adjust resources to meet fluctuating and unpredictable business demand.
+Structure : (RRC
+  (ADJP (JJ proponents))
+  (ADVP (RB also))
+  (VP
+    (VBP claim)
+    (SBAR
+      (IN that)
+      (S
+        (VP
+          (S+ADJP
+            (ADJP (JJ cloud) (S+VP (VBG computing) (NP (NN allows))))
+            (ADJP
+              (JJ enterprises)
+              (S+VP
+                (TO to)
+                (VP (VB get) (NP (PRP$ their) (NNS applications)))))
+            (ADJP (RB up) (CC and) (VBG running))
+            (ADJP
+              (JJR faster)
+              (PP
+                (, ,)
+                (IN with)
+                (NP (VBN improved) (NN manageability))))
+            (ADJP (CC and) (RBR less) (JJ maintenance))
+            (, ,)
+            (ADJP (CC and) (JJ enables))
+            (JJ IT)
+            (PP
+              (TO to)
+              (NP
+                (ADJP (RBR more) (RB rapidly) (JJ adjust))
+                (NNS resources))))
+          (S+VP
+            (TO to)
+            (VP
+              (VB meet)
+              (VBG fluctuating)
+              (CC and)
+              (VB unpredictable)
+              (NP (NN business) (NN demand)))))
+        (. .)))))
+
+Sentence : Cloud providers typically use a "pay as you go" model.
+Structure : (RRC
+  (ADJP (JJ cloud))
+  (ADJP (JJ providers))
+  (ADVP (RB typically))
+  (VP
+    (VB use)
+    (NP
+      (DT a)
+      (`` ``)
+      (NN pay)
+      (SBAR
+        (IN as)
+        (S (NP (PRP you)) (VP (VB go) (NP ('' '') (NN model))) (. .))))))
+
+Sentence : This can lead to unexpectedly high charges if administrators do not adapt to the cloud pricing model.
+Structure : (NP+SBAR+S
+  (S
+    (NP (DT this))
+    (VP
+      (MD can)
+      (VB lead)
+      (S+VP
+        (TO to)
+        (VP
+          (ADVP (RB unexpectedly))
+          (NP (JJ high) (NNS charges))
+          (PP (IN if) (NP (NN administrators)))))))
+  (S
+    (VP
+      (VBP do)
+      (ADJP
+        (RB not)
+        (JJ adapt)
+        (PP
+          (TO to)
+          (NP (NP (DT the) (NN cloud)) (NN pricing) (NN model)))))
+    (. .)))
+
+Sentence : The present availability of high-capacity networks, low-cost computers and storage devices as well as the widespread adoption of hardware virtualization, service-oriented architecture, and autonomic and utility computing have led to a growth in cloud computing.
+Structure : (S+SBAR
+  (S
+    (NP
+      (DT the)
+      (JJ present)
+      (NN availability)
+      (PP (IN of) (NP (JJ high-capacity) (NN networks))))
+    (, ,)
+    (NP (JJ low-cost) (NNS computers))
+    (CC and)
+    (NP (JJ storage) (NNS devices))
+    (VP
+      (ADVP (RB as) (RB well))
+      (PP
+        (IN as)
+        (NP
+          (NP (DT the) (JJ widespread) (NN adoption))
+          (PP (IN of) (NP (NN hardware) (NN virtualization)))))))
+  (, ,)
+  (S
+    (NP (JJ service-oriented) (NN architecture))
+    (, ,)
+    (CC and)
+    (NP (JJ autonomic) (CC and) (NN utility))
+    (VP
+      (VBG computing)
+      (VBP have)
+      (VBN led)
+      (PP
+        (TO to)
+        (NP
+          (NP (DT a) (NN growth))
+          (PP (IN in) (NP (JJ cloud) (NN computing))))))
+    (. .)))
+
+Sentence : Companies can scale up as computing needs increase and then scale down again as demands decrease.
+Structure : (SBAR+S
+  (NP (NNS companies))
+  (VP
+    (MD can)
+    (VB scale)
+    (PRT (RP up))
+    (SBAR
+      (IN as)
+      (S
+        (VP
+          (VBG computing)
+          (VBZ needs)
+          (VB increase)
+          (NP
+            (CC and)
+            (CONJP (RB then) (RB scale) (RB down) (RB again) (IN as))
+            (JJ demands)
+            (NN decrease)))
+        (. .)))))
+
+Sentence : Cloud vendors are experiencing growth rates of 50% per annum
+
+Structure : (NP+S
+  (NP (JJ cloud) (NN vendors))
+  (VP
+    (VBP are)
+    (VBG experiencing)
+    (NP
+      (NP
+        (NP (NN growth) (NNS rates))
+        (PP (IN of) (NP (CD 50) (NN %))))
+      (PP (IN per) (NP (NN annum))))))
+
