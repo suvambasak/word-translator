@@ -12,3 +12,19 @@ $ python3 translate.py
 Enter TEXT [english] : School
 SPANISH : escuela 
 ```
+---
+## With GUI
+- Install `tkinter`
+```bash
+$ sudo apt install python3-tk
+```
+- Execute `gui-translate.py`
+```bash
+$ python3 gui-translate.py
+```
+
+<br>
+
+<p align='center' width='100%'>
+    <img src='https://github.com/suvambasak/word-translator/blob/master/img/snap.png?raw=true'>
+</p>
